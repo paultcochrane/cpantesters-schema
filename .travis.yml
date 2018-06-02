@@ -4,8 +4,8 @@ matrix:
     include:
         - perl: "5.24"
           env: COVERAGE=1 MYSQL_VERSION=5.7
-        - perl: "blead"
-          env: MYSQL_VERSION=5.7
+          # - perl: "blead"
+          # env: MYSQL_VERSION=5.7
     allow_failures:
         - perl: "blead"
           env: MYSQL_VERSION=5.7
